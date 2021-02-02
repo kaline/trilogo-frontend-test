@@ -56,6 +56,7 @@ Para dar início ao desafio, o candidato deve dar um fork neste repositório e, 
  Excluir cartão
  Editar cartão
  
-
+ 
+ Tempo: 7 dias - Terça-feira
  
  
