@@ -28,3 +28,34 @@ Para dar início ao desafio, o candidato deve dar um fork neste repositório e, 
 * CSS Modules
 * Utilização do Ant Design (biblioteca React UI)
 * Persistencia dos dados em Local Storage
+
+
+<hr>
+
+### 3. Dimensionamento
+
+- 1. Desenvolver tela
+- 2. Desenvolver colunas- Aberto, Executado, Vistoriado e Arquivado
+
+- 3. Desenvolver modal
+- 3.1. Campos
+
+ -- 3.1.1. Descrição
+ -- 3.1.2. Tipo
+ -- 3.1.3. Responsável
+ -- 3.1.4. Imagem (opcional)
+ 
+ 1. Ação:
+ Criar cartão
+ Adicionar à coluna "Abertos"
+ 
+ 2. Ação:
+ Drag and drop cartão
+
+ 3. Acão
+ Excluir cartão
+ Editar cartão
+ 
+
+ 
+ 
