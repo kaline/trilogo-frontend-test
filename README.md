@@ -40,10 +40,10 @@ Para dar início ao desafio, o candidato deve dar um fork neste repositório e, 
 - 3. Desenvolver modal
 - 3.1. Campos
 
- -- 3.1.1. Descrição
- -- 3.1.2. Tipo
- -- 3.1.3. Responsável
- -- 3.1.4. Imagem (opcional)
+ - 3.1.1. Descrição
+ - 3.1.2. Tipo
+ - 3.1.3. Responsável
+ - 3.1.4. Imagem (opcional)
  
  1. Ação:
  Criar cartão
