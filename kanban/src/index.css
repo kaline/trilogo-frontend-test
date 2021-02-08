@@ -1,13 +1,425 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+
+  background: #F5F5F5;
+  
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Navbar{
+width: 1280px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+}
+
+.Logo{
+  position: absolute;
+width: 116.57px;
+height: 32px;
+left: 60px;
+top: 24px;
+
+background: url(image.png);
+}
+
+
+
+.button{
+  position: relative;
+  width: 133px;
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  color: #FFFFFF;
+  background: #4C12A1;
+  border-radius: 20px;
+  left: 75%;
+  right: 0%;
+  top: 20%;
+  bottom: 0%;
+
+}
+
+
+.Colunas{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Abertos{
+  
+  width: 275px;
+  height: 40px;
+  left: 0;
+  top: 0px;
+  
+  /* Status / Criado */
+  
+  background: #F5222D;
+  opacity: 0.25;
+  border-radius: 8px 8px 0px 0px;
+  
+  
+}
+
+.TituloAbertos{
+  width: 52px;
+height: 20px;
+left: 10px;
+top: 10px;
+ 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.25px;
+
+/* Preto */
+
+color: #141414;
+
+
+}
+.ColunaAbertos{
+  /* Rectangle 3 */
+  width: 275px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+
+}
+
+.Executados{
+  
+  width: 275px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  
+  /* Status / Executado */
+  
+  background: #D4662D;
+  opacity: 0.25;
+  border-radius: 8px 8px 0px 0px;
+  }
+
+  .TituloExecutados{
+width: 76px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.25px;
+
+/* Preto */
+
+color: #141414;
+  }
+
+  .ColunaExecutados{
+    /* Rectangle 3 */
+    width: 275px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+  }
+
+.Vistoriados{
+
+width: 275px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* Status / Vistoriado */
+
+background: #52C41A;
+opacity: 0.25;
+border-radius: 8px 8px 0px 0px;
+
+}
+
+.TituloVistoriados{
+  width: 74px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.25px;
+
+/* Preto */
+
+color: #141414;
+}
+
+.ColunaVistoriados{
+   /* Rectangle 3 */
+width: 275px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+}
+
+.Arquivados{
+
+width: 275px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* Status / Arquivado */
+
+background: #C1B9B9;
+opacity: 0.25;
+border-radius: 8px 8px 0px 0px;
+
+}
+
+.TituloArquivados{
+width: 74px;
+height: 20px;
+left: 10px;
+top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.25px;
+
+/* Preto */
+
+color: #141414;
+}
+
+.ColunaArquivados{
+width: 275px;
+height: 608px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+}
+
+.modalCriarTicket{
+  width: 384px;
+  left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+/* @shadow-2 */
+
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.modalHeader{
+width: 120px;
+height: 22px;
+left: 16px;
+top: 16.4px;
+
+/* @font-size-lg: @font-size-base + 2px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 137% */
+
+
+/* @heading-color */
+
+color: rgba(0, 0, 0, 0.85);
+}
+
+.Descricao{
+  width: 352px;
+  height: 22px;
+  left: 16px;
+  top: 67px;
+  
+  /* @font-size-sm: 12px */
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+  
+  
+  /* @text-color */
+  
+  color: rgba(0, 0, 0, 0.65);}
+
+  .descricaoInput{
+    width:354px;
+
+    height: 32px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+background: #FFFFFF;
+/* @border-color-base */
+
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;
+  }
+
+  .Tipo{
+    width: 352px;
+height: 22px;
+left: 16px;
+top: 137px;
+
+/* @font-size-sm: 12px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+
+/* @text-color */
+
+color: rgba(0, 0, 0, 0.65);
+  }
+
+  .TipoSelect{
+    width: 354px;
+    height: 32px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+  }
+
+  .image{
+
+    width:352px;
+Height: 109px;
+    left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Background */
+
+background: rgba(0, 0, 0, 0.04);
+/* Dividers */
+
+border: 1px dashed rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+
+  }
+
+  .inbox{
+  width: 38.45px;
+  height: 39.08px;
+  left: calc(50% - 38.45px/2 - 0.03px);
+  top: calc(50% - 39.08px/2 - 18.96px);
+  margin: 20px 20px 20px 150px;
+
+  background: url(inbox.png);
+
+  }
+
+  .textContent{
+
+  width: 281px;
+  height: 22px;
+  left: calc(50% - 281px/2 - 0.5px);
+  top: 71px;
+  margin-left: 3
+  0px;
+
+  /* @font-size-sm: 12px */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.43);
+
+  }
+
+  .buttonModal{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Roxo */
+
+    background: #4C12A1;
+    border-radius: 24px;
+  }
